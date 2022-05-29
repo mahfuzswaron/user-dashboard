@@ -2,9 +2,9 @@ import React from 'react';
 
 const Analytics = () => {
     return (
-        <div>
+        <section className='w-2/5 bg-white'>
             <h2>This is Analytics</h2>
-        </div>
+        </section>
     );
 };
 

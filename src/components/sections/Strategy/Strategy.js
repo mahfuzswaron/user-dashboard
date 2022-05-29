@@ -7,7 +7,7 @@ const Strategy = () => {
     const [EmprangeValue, setEmpRangeValue] = useState(0);
     const [RetrangeValue, setRetRangeValue] = useState(0);
     return (
-        <section className='bg-[#FAFAFA] p-5 mt-10 rounded-lg'>
+        <section className='bg-[#FAFAFA] p-5 mt-10 rounded-lg w-80'>
             <Title>Requirement Strategy</Title>
             <div className='my-5'>
                 <Subtitle>Employee Contributions</Subtitle>
@@ -34,7 +34,7 @@ const Strategy = () => {
                 </div>
             </div>
             <button className='btn py-2 px-3 my-5 w-full bg-blue-500 text-white rounded-lg'>Update</button>
-            <a href='#' className='text-blue-500 font-bold mx-20' >{'View help docs >'} </a>
+            <a href='#' className='text-blue-500 font-bold mx-16' >{'View help docs >'} </a>
             <div>
 
             </div>
