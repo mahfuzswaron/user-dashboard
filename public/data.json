@@ -1,0 +1,44 @@
+[
+    {
+        "age": 20,
+        "employee": 100,
+        "employer": 200,
+        "total_interest": 80
+    },
+    {
+        "age": 25,
+        "employee": 120,
+        "employer": 220,
+        "total_interest": 90
+    },
+    {
+        "age": 30,
+        "employee": 130,
+        "employer": 210,
+        "total_interest": 95
+    },
+    {
+        "age": 35,
+        "employee": 140,
+        "employer": 220,
+        "total_interest": 100
+    },
+    {
+        "age": 40,
+        "employee": 150,
+        "employer": 240,
+        "total_interest": 120
+    },
+    {
+        "age": 60,
+        "employee": 160,
+        "employer": 260,
+        "total_interest": 130
+    },
+    {
+        "age": 65,
+        "employee": 180,
+        "employer": 300,
+        "total_interest": 170
+    }
+]
