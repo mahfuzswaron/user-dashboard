@@ -2,6 +2,7 @@ import React from 'react';
 import user_pic from '../../../../src/user-pic.jpg';
 import Title from '../../shared/Title';
 import SmallText from '../../shared/SmallText';
+import Subtitle from '../../shared/Subtitle';
 
 const HelloSection = () => {
     return (
@@ -39,7 +40,25 @@ const HelloSection = () => {
                     </select>
                 </button>
             </div>
+            {/* ------------------------------- */}
+            <div className='mt-5'>
+                <Title>Recent Transactions</Title>
+                <div className='my-5'>
+                    <SmallText>2020-08-07</SmallText>
+                    <Subtitle>Withdrwal Transfer To Bank -xxxx11</Subtitle>
+                </div>
+                <hr></hr>
+                <div className='my-5'>
+                    <SmallText>2020-08-04</SmallText>
+                    <Subtitle>Withdrwal Transfer To Bank -xxxx12</Subtitle>
+                </div>
+                <hr></hr>
+                <div className='my-5'>
+                    <SmallText>2020-10-07</SmallText>
+                    <Subtitle>Withdrwal Transfer To Bank -xxxx13</Subtitle>
 
+                </div>
+            </div>
 
         </section>
     );

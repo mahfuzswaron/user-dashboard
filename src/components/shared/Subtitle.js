@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Subtitle = () => {
+const Subtitle = ({ children }) => {
     return (
-        <div>
-            <h3>This is Subtitle</h3>
-        </div>
+        <h4 className='text-sm font-bold'>
+            {children}
+        </h4>
     );
 };
 
