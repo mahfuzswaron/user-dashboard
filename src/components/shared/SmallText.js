@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SmallText = ({ chilldren }) => {
+const SmallText = ({ children }) => {
     return (
-        <p >
-            {chilldren}
+        <p className='text-gray-400 text-sm mt-1'>
+            {children}
         </p>
     );
 };

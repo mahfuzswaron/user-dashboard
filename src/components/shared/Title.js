@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Title = ({ chilldren }) => {
+const Title = ({ children }) => {
     return (
-        <h3>
-            {chilldren}
+        <h3 className='text-lg font-bold'>
+            {children}
         </h3>
     );
 };
