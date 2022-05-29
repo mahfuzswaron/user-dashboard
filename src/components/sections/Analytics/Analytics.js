@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SmallText from '../../shared/SmallText';
 import Chart from './Chart';
+import Compare from './Compare';
 import Goal from './Goal';
 const Analytics = () => {
 
@@ -23,8 +24,9 @@ const Analytics = () => {
                     name='Est. Monthly Income'
                 ></Goal>
             </div>
-            {/* -------------------- */}
+
             <Chart></Chart>
+            <Compare />
         </section>
     );
 };

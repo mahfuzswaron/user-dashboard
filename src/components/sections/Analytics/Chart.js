@@ -48,7 +48,7 @@ const Chart = () => {
                     <YAxis />
                     <Tooltip />
                     {/* <Legend content={renderLegend} /> */}
-                    <Legend layout="horizontal" verticalAlign="top" align="center" margin={{ bottom: "10px" }} />
+                    <Legend layout="horizontal" verticalAlign="top" align="center" />
                     <Bar dataKey="employee" stackId="a" fill='#2563EB' className='fill-blue-600' />
                     <Bar dataKey="employer" stackId="a" fill='#3B82F6' className='fill-blue-500' />
                     <Bar dataKey="total_interest" stackId="a" fill="#60A5FA" className='fill-blue-400' />
