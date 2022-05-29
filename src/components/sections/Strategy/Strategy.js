@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Subtitle from '../../shared/Subtitle';
 import Title from '../../shared/Title';
+import SmallText from '../../shared/SmallText';
 import './Strategy.css';
 
 const Strategy = () => {
@@ -36,7 +37,12 @@ const Strategy = () => {
             <button className='btn py-2 px-3 my-5 w-full bg-blue-500 text-white rounded-lg'>Update</button>
             <a href='#' className='text-blue-500 font-bold mx-16' >{'View help docs >'} </a>
             <div>
+            </div>
 
+            <div className='mt-16 border-l-2 border-blue-500 pl-3'>
+                <p>Are you considering a <br /> <span className='font-bold'>Housing Advance?</span></p>
+                <SmallText>Limited time reduces interest</SmallText>
+                <a href='#' className='text-blue-500 font-bold' >{'Learn moer >'} </a>
             </div>
         </section>
     );
