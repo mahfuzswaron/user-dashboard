@@ -12,7 +12,7 @@ const HelloSection = () => {
                     <img className='inline-block h-20 w-20 rounded-full ring-2 ring-white' src={user_pic} alt='' />
                 </div>
                 <div>
-                    <h3 className='text-3xl font-bold'>Hi Mike,</h3>
+                    <h3 className='text-3xl text-black font-bold'>Hi Mike,</h3>
                     <p>welcome back</p>
                 </div>
             </div>
@@ -20,19 +20,19 @@ const HelloSection = () => {
             <div className='mt-5 -ml-20'>
                 <Title> Today </Title>
                 <div className='mt-2'>
-                    <h4 className='text-2xl font-bold'>$19,892</h4>
+                    <h4 className='text-2xl text-black font-bold'>$19,892</h4>
                     <SmallText>Account Balance</SmallText>
                 </div>
                 <div className='mt-2'>
-                    <h4 className='text-xl font-bold'>$4.000</h4>
+                    <h4 className='text-xl text-black font-bold'>$4.000</h4>
                     <SmallText>Year-to-Date Contribution </SmallText>
                 </div>
                 <div className='mt-2'>
-                    <h4 className='text-xl font-bold'>$1,092</h4>
+                    <h4 className='text-xl text-black font-bold'>$1,092</h4>
                     <SmallText>Total Interest</SmallText>
                 </div>
-                <button className='btn py-2 px-3 mt-3 bg-blue-500 rounded-lg'>
-                    <select name="want-to" id="want-to" className='bg-blue-500  text-white border-none outline-none'>
+                <button className='btn  border-none py-2 px-3 mt-3 bg-blue-500 hover:bg-blue-600 rounded-lg'>
+                    <select name="want-to" id="want-to" className='bg-blue-500 hover:bg-blue-600  text-white border-none outline-none'>
                         <option value="I Want to">I Want To</option>
                         <option value="foo">foo</option>
                         <option value="bar">bar</option>

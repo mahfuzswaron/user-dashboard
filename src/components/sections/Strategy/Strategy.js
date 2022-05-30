@@ -34,7 +34,7 @@ const Strategy = () => {
                     <span>5%</span>
                 </div>
             </div>
-            <button className='btn py-2 px-3 my-5 w-full bg-blue-500 text-white rounded-lg'>Update</button>
+            <button className='btn border-none py-2 px-3 my-5 w-full bg-blue-500 hover:bg-blue-600 text-white rounded-lg'>Update</button>
             <a href='#' className='text-blue-500 font-bold mx-16' >{'View help docs >'} </a>
             <div>
             </div>

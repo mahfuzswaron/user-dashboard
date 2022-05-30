@@ -10,7 +10,7 @@ const Compare = () => {
             <div className='flex my-10 items-center'>
                 <div className='w-1/2 pr-5'>
                     <div className='flex'>
-                        <p className='font-bold'>Age:</p>
+                        <p className='font-bold text-black'>Age:</p>
                         <select>
                             <option value="Under-30">Under 30</option>
                             <option value="Under-40">Under 40</option>
@@ -20,7 +20,7 @@ const Compare = () => {
                     </div>
                     <hr className='my-3' />
                     <div className='flex'>
-                        <p className='font-bold'>Salary:</p>
+                        <p className='font-bold text-black'>Salary:</p>
                         <select>
                             <option value="k-20-30">K 20-30</option>
                             <option value="k-30-40">K 30-40</option>
@@ -30,7 +30,7 @@ const Compare = () => {
                     </div>
                     <hr className='my-3' />
                     <div className='flex'>
-                        <p className='font-bold'>Gender:</p>
+                        <p className='font-bold text-black'>Gender:</p>
                         <select>
                             <option value="male">Male</option>
                             <option value="female">Female</option>
