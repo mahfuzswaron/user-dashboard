@@ -8,7 +8,7 @@ import Analytics from './components/sections/Analytics/Analytics';
 
 function App() {
   return (
-    <section className='bg-white rounded-lg flex '>
+    <section className='bg-white rounded-lg lg:flex sm:grid sm:grid-cols-1 w-full'>
       <Navbar />
       <HelloSection />
       <Analytics />

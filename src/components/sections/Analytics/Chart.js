@@ -30,11 +30,11 @@ const Chart = () => {
     }
     return (
         <div className='mt-20'>
-            <Title>Contributions Overtime ({data?.length})</Title>
+            <Title>Contributions Overtime</Title>
             <div>
                 <BarChart
-                    width={500}
-                    height={300}
+                    width={400}
+                    height={250}
                     data={data}
                     margin={{
                         top: 20,
@@ -42,6 +42,7 @@ const Chart = () => {
                         left: 20,
                         bottom: 5,
                     }}
+
                 >
                     <CartesianGrid strokeDasharray="3 3" horizontal vertical={false} />
                     <XAxis dataKey="age" />

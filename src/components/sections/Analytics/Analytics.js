@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import SmallText from '../../shared/SmallText';
+import React from 'react';
 import Chart from './Chart';
 import Compare from './Compare';
 import Goal from './Goal';
 const Analytics = () => {
 
     return (
-        <section className='w-2/5 bg-white px-10 mt-10'>
+        <section className='lg:w-2/5 sm:w-full bg-white px-10 mt-10'>
             <p className='text-sm font-bold text-blue-500'>Retirement Income</p>
             <h3 className='text-2xl text-black font-bold'>Starting Year 2056</h3>
 

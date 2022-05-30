@@ -6,7 +6,7 @@ import Subtitle from '../../shared/Subtitle';
 
 const HelloSection = () => {
     return (
-        <section className='flex flex-col bg-[#FAFAFA] items-center w-96'>
+        <section className='flex flex-col bg-[#FAFAFA] items-center lg:w-96 sm:w-full'>
             <div className='flex justify-around items-center mt-10 w-2/3'>
                 <div>
                     <img className='inline-block h-20 w-20 rounded-full ring-2 ring-white' src={user_pic} alt='' />
