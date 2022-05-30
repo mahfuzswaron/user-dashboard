@@ -26,9 +26,9 @@ const newspaper = <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fi
 
 const Navbar = () => {
     return (
-        <nav className='px-5 w-16 bg-white'>
-            <ul className='flex flex-col justify-around h-screen'>
-                <div className='flex flex-col items-center'>
+        <nav className='px-5 lg:w-16 sm:w-full bg-white sm:absolute'>
+            <ul className='flex lg:flex-col justify-around lg:h-screen'>
+                <div className='flex lg:flex-col items-center'>
                     <li className='pb-3'> <div className='h-auto w-[50px] '>
                         <img className='h-auto w-[45px] m-auto' src={logo} alt='logo' /> </div> </li>
                     <li className='pb-3'>{search} </li>
